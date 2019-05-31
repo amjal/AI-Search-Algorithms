@@ -1,0 +1,10 @@
+read from file //done
+process_command should only have one return
+documentation
+implement goal_test instead of an enumerated set of goals 
+use inheritance for search_algorithms//done
+use min_heap for uniform_cost fringe
+add infinite loop detection for dfs
+avoid repeated states 
+safe accesses
+use interfaces for search functions

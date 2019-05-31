@@ -1,0 +1,66 @@
+state Oradea
+state Zerind
+state Arad
+state Sibiu
+state Timisoara
+state Lugoj
+state Mehadia
+state Dobreta
+state Craiova
+state Pitesti
+state Rimnicu
+state Fagaras
+state Bucharest
+state Giurgiu
+state Urziceni
+state Hirsova
+state Eforie
+state Vaslui
+state Iasi
+state Neamt
+initial Arad
+goal Bucharest
+action Oradea a 151 Sibiu
+action Oradea a 71 Zerind
+action Zerind a 75 Arad
+action Zerind a 71 Oradea
+action Arad a 75 Zerind
+action Arad a 140 Sibiu
+action Arad a 118 Timisoara
+action Timisoara a 118 Arad
+action Timisoara a 111 Lugoj
+action Lugoj a 111 Timisoara
+action Lugoj a 70 Mehadia
+action Mehadia a 70 Lugoj
+action Mehadia a 75 Dobreta
+action Dobreta a 75 Mehadia
+action Dobreta a 120 Craiova
+action Craiova a 146 Rimnicu
+action Craiova a 120 Dobreta
+action Craiova a 138 Pitesti
+action Rimnicu a 146 Craiova
+action Rimnicu a 80 Sibiu
+action Rimnicu a 97 Pitesti
+action Sibiu a 151 Oradea
+action Sibiu a 140 Arad
+action Sibiu a 80 Rimnicu
+action Sibiu a 99 Fagaras
+action Fagaras a 99 Sibiu
+action Fagaras a 211 Bucharest
+action Pitesti a 97 Rimnicu
+action Pitesti a 138 Craiova
+action Pitesti a 101 Bucharest
+action Bucharest a 211 Fagaras
+action Bucharest a 85 Urziceni
+action Bucharest a 90 Giurgiu
+action Bucharest a 101 Pitesti
+action Urziceni a 85 Bucharest
+action Urziceni a 98 Hirsova
+action Urziceni a 142 Vaslui
+action Hirsova a 98 Urziceni
+action Hirsova a 86 Eforie
+action Vaslui a 142 Urziceni
+action Vaslui a 92 Iasi
+action Iasi a 92 Vaslui
+action Iasi a 87 Neamt
+action Neamt a 87 Iasi
